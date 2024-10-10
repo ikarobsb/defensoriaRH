@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entrevista de Emprego - Defensoria Pública SP</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f4;
+        }
+        .container {
+            background-color: #fff;
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+        }
+        .question {
+            margin-bottom: 15px;
+        }
+        label {
+            font-weight: bold;
+        }
+        input, textarea, select {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        input[type="submit"] {
+            background-color: #28a745;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Questionário de Entrevista</h1>
+        <form action="https://formspree.io/f/xlderynb" method="POST">
+            
+            <!-- Apresentação Pessoal -->
+            <div class="question">
+                <label for="apresentacao">1. Fale sobre sua trajetória profissional, especialmente em funções que envolviam atendimento ao público:</label>
+                <textarea id="apresentacao" name="apresentacao" rows="4" required></textarea>
+            </div>
+            
+            <!-- Experiência com Atendimento ao Público -->
+            <div class="question">
+                <label for="experiencia">2. Qual foi o maior desafio que você enfrentou em uma situação de atendimento ao público? Como lidou com isso?</label>
+                <textarea id="experiencia" name="experiencia" rows="4" required></textarea>
+            </div>
+
+            <div class="question">
+                <label for="conflito">3. Como você gerencia situações de conflito ou quando um cliente está insatisfeito?</label>
+                <textarea id="conflito" name="conflito" rows="4" required></textarea>
+            </div>
+            
+            <!-- Capacidade de Aprender Novos Sistemas -->
+            <div class="question">
+                <label for="sistemas">4. Você já trabalhou com sistemas como ERP, CRM, ou algum outro sistema administrativo? Qual foi sua experiência com esses sistemas?</label>
+                <textarea id="sistemas" name="sistemas" rows="4" required></textarea>
+            </div>
+
+            <div class="question">
+                <label for="aprendizagem">5. Conte sobre uma situação em que você teve que aprender rapidamente a usar um novo sistema ou tecnologia no trabalho. Como foi sua adaptação?</label>
+                <textarea id="aprendizagem" name="aprendizagem" rows="4" required></textarea>
+            </div>
+            
+            <!-- Ferramentas Online de Comunicação -->
+            <div class="question">
+                <label for="comunicacao">6. Como você utilizava ferramentas online para se comunicar com clientes ou resolver demandas no seu trabalho anterior?</label>
+                <textarea id="comunicacao" name="comunicacao" rows="4" required></textarea>
+            </div>
+
+            <!-- Habilidade em Informática -->
+            <div class="question">
+                <label for="informatica">7. Você se sente confortável utilizando ferramentas como Excel e Word? Dê um exemplo prático.</label>
+                <textarea id="informatica" name="informatica" rows="4" required></textarea>
+            </div>
+            
+            <!-- Adaptação a Mudanças -->
+            <div class="question">
+                <label for="adaptacao">8. Quando você precisa aprender algo novo, qual é sua abordagem? Prefere tutoriais online, treinamento prático, etc.?</label>
+                <textarea id="adaptacao" name="adaptacao" rows="4" required></textarea>
+            </div>
+
+            <!-- Empatia e Resiliência -->
+            <div class="question">
+                <label for="empatia">9. Como a empatia pode influenciar positivamente no atendimento ao público, especialmente em situações difíceis?</label>
+                <textarea id="empatia" name="empatia" rows="4" required></textarea>
+            </div>
+            
+            <!-- Botão de Enviar -->
+            <input type="submit" value="Enviar Respostas">
+        </form>
+    </div>
+
+</body>
+</html>
